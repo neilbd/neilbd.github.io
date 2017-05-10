@@ -1,0 +1,121 @@
+* {
+	font-family: roboto;
+	
+}
+
+#whole{
+	display:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#header{
+	cursor: pointer;
+	font-size: 22px;
+	border-bottom: 1px solid black;
+}
+
+.container {
+	position: absolute; 
+	left: 200px; 
+	width: 85%;
+}
+
+#main {
+	display: block;
+	z-index: -1;
+	width: 850px;
+	padding-bottom: 13px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.experience-body {
+	margin-top: -10px;
+}
+
+#directory {
+	margin-top: -8px;
+	text-align: center;
+	width: 195px;
+	float: left;
+	position: fixed;
+	border-right: 1px solid black;
+	height: 110%;
+	overflow: auto;
+	background-color: white;
+	margin-bottom: 8px;
+	z-index: 1;
+}
+
+.colore {
+	background-color: yellow;
+}
+
+.colorb {
+	background-color: palegreen;
+}
+
+.colora {
+	background-color: skyblue;
+}
+
+.colorc {
+	background-color: salmon;
+}
+
+.selection {
+	cursor: pointer;
+	margin-top: 40px;
+	font-size: 22px;
+	height: 80px;
+	margin-right: 10px;
+	
+}
+
+.primary {
+	display: inline-block;
+}
+
+.selection h4 {
+	padding: 25px;
+}
+
+h4 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#main h4 {
+	font-size: 40px;
+	text-shadow: 5px 5px 10px gray;
+}
+
+h2 {
+	text-align: center;
+}
+
+.profpic {
+	margin-right: 30px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	line-height: 160%;
+}
+
+li {
+	line-height: 160%;
+}
+
+a:hover{
+	color: red;
+	
+}
