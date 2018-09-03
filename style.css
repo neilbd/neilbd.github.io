@@ -1,6 +1,5 @@
 * {
 	font-family: roboto;
-	
 }
 
 #whole{
@@ -18,18 +17,17 @@ a {
 }
 
 .container {
-	position: absolute; 
-	left: 200px; 
-	width: 85%;
+	position: center; 
+	width: 100%
 }
 
 #main {
+	margin-top: 3%;
 	display: block;
-	z-index: -1;
-	width: 850px;
-	padding-bottom: 13px;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10%;
 }
 
 .experience-body {
@@ -37,17 +35,12 @@ a {
 }
 
 #directory {
-	margin-top: -8px;
-	text-align: center;
-	width: 195px;
-	float: left;
+	width: 100%;
+	display: flex;
 	position: fixed;
-	border-right: 1px solid black;
-	height: 110%;
 	overflow: auto;
+	bottom: 0px;
 	background-color: white;
-	margin-bottom: 8px;
-	z-index: 1;
 }
 
 .colore {
@@ -68,11 +61,13 @@ a {
 
 .selection {
 	cursor: pointer;
-	margin-top: 40px;
 	font-size: 22px;
-	height: 80px;
-	margin-right: 10px;
-	
+	height: 10%;
+	width: 20%;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
 }
 
 .primary {
@@ -81,6 +76,7 @@ a {
 
 .selection h4 {
 	padding: 25px;
+	border: 1;
 }
 
 h4 {
@@ -117,5 +113,20 @@ li {
 
 a:hover{
 	color: red;
-	
+}
+
+.biography-body{
+	display: none;
+}
+
+.experience-body{
+	display: none;
+}
+
+.activities-body{
+	display: none;
+}
+
+.contacts-body{
+	display: none;
 }

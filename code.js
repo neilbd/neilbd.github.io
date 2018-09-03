@@ -2,30 +2,36 @@ var main = function(){
 
 	$("#whole").fadeIn("slow");
 
-	var pos = null;
-
-	$("#header").click(function(){
-		$("*").animate({"scrollTop": "0"}, 300);
-	});
-
 	$("#biography").click(function(){
-		pos = $(".biography-body").position();
-		$("*").animate({"scrollTop": pos.top.toString()}, 300);
+		$("#intro").fadeOut(300);
+		$(".activities-body").fadeOut(300);
+		$(".contact-body").fadeOut(300);
+		$(".experience-body").fadeOut(300);
+		$(".biography-body").fadeIn(300);
 	});
 
 	$("#experience").click(function(){
-		pos = $(".experience-body").position();
-		$("*").animate({"scrollTop": pos.top.toString()}, 300);
+		$("#intro").fadeOut(300);
+		$(".activities-body").fadeOut(300);
+		$(".contact-body").fadeOut(300);
+		$(".biography-body").fadeOut(300);
+		$(".experience-body").fadeIn(300);
 	});
 
 	$("#activities").click(function(){
-		pos = $(".activities-body").position();
-		$("*").animate({"scrollTop": pos.top.toString()}, 300);
+		$("#intro").fadeOut(300);
+		$(".experience-body").fadeOut(300);
+		$(".contact-body").fadeOut(300);
+		$(".biography-body").fadeOut(300);
+		$(".activities-body").fadeIn(300);
 	});
 
 	$("#contact").click(function(){
-		pos = $(".contacts-body").position();
-		$("*").animate({"scrollTop": pos.top.toString()}, 300);
+		$("#intro").fadeOut(300);
+		$(".activities-body").fadeOut(300);
+		$(".experience-body").fadeOut(300);
+		$(".biography-body").fadeOut(300);
+		$(".contact-body").fadeIn(300);
 	});
 
 	$("#biography").mouseenter(function(){
